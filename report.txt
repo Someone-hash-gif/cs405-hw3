@@ -1,0 +1,14 @@
+In the first task, I have edited the sceneNode class such that for each of the child, 
+the draw function is called psuedo-recursively. The code checks if that node has any children,
+if so; it calls the draw method for that child. The matrices are transformed using each node's trs object-
+and passed to the children.
+
+
+In the second task, I have edited the fragment shader so that it uses the phong model implement-
+specular and diffuse lightning. The phong model is explained below:
+
+
+
+In the third task I added the mars as a child of the sun node, identical to how other nodes were added in the function.
+I applied the transformation using the trs class of the mars node object. I used the given url for the texture
+
